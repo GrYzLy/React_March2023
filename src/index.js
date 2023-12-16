@@ -7,6 +7,7 @@ import Greetings from './Greetings/Greetings';
 import GreetingsArrow from './Greetings/GreetingsArrow';
 import CounterClass from './Counter/CounterClass';
 import LoginForm from './LoginForm/LoginForm';
+import SecretMessage from './SecretMessage/SecretMessage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +18,8 @@ root.render(
     <GreetingsArrow name="Janek" /> */}
 
     {/* <CounterClass /> */}
-    <LoginForm />
+    {/* <LoginForm /> */}
+    <SecretMessage />
   </React.StrictMode>
 );
 
