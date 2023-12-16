@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Greetings from './Greetings/Greetings';
 import GreetingsArrow from './Greetings/GreetingsArrow';
 import CounterClass from './Counter/CounterClass';
+import LoginForm from './LoginForm/LoginForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,8 @@ root.render(
     <Greetings name="March 2023!" />
     <GreetingsArrow name="Janek" /> */}
 
-    <CounterClass />
+    {/* <CounterClass /> */}
+    <LoginForm />
   </React.StrictMode>
 );
 
