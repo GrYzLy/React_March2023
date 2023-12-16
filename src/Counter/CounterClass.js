@@ -23,6 +23,7 @@ render() {
     return (
         <div>
             <h1>Counter: {this.state.clickCounter}</h1>
+            
             <button onClick={() => this.incrementThisCounter()}>+1</button>
         </div>
     )
