@@ -5,14 +5,17 @@ import AppArrow from './AppArrow';
 import reportWebVitals from './reportWebVitals';
 import Greetings from './Greetings/Greetings';
 import GreetingsArrow from './Greetings/GreetingsArrow';
+import CounterClass from './Counter/CounterClass';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <AppArrow /> */}
-    <Greetings name="Bartosz"/>
+    {/* <Greetings name="Bartosz"/>
     <Greetings name="March 2023!" />
-    <GreetingsArrow name="Janek" />
+    <GreetingsArrow name="Janek" /> */}
+
+    <CounterClass />
   </React.StrictMode>
 );
 
