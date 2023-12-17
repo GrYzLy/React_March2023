@@ -8,6 +8,7 @@ import GreetingsArrow from './Greetings/GreetingsArrow';
 import CounterClass from './Counter/CounterClass';
 import LoginForm from './LoginForm/LoginForm';
 import SecretMessage from './SecretMessage/SecretMessage';
+import Quiz from './Quiz/Quiz';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,7 +20,8 @@ root.render(
 
     {/* <CounterClass /> */}
     {/* <LoginForm /> */}
-    <SecretMessage />
+    {/* <SecretMessage /> */}
+    <Quiz />
   </React.StrictMode>
 );
 
