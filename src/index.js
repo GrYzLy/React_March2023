@@ -10,6 +10,12 @@ import LoginForm from './LoginForm/LoginForm';
 import SecretMessage from './SecretMessage/SecretMessage';
 import Quiz from './Quiz/Quiz';
 import Lifecycle from './Lifecycle/Lifecycle';
+import RouterJS from './Router/RouterJS';
+import ReactRouter from './Router/ReactRouter';
+import FetchApi from './FetchApi/FetchApi';
+import CounterHook from './Counter/CounterHook';
+import FetchApiHook from './FetchApi/FetchApiHook';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,7 +29,12 @@ root.render(
     {/* <LoginForm /> */}
     {/* <SecretMessage /> */}
     {/* <Quiz /> */}
-    <Lifecycle />
+    {/* <Lifecycle /> */}
+    {/* <RouterJS /> */}
+    {/* <ReactRouter /> */}
+    {/* <FetchApi /> */}
+    {/* <CounterHook /> */}
+    <FetchApiHook />
   </React.StrictMode>
 );
 

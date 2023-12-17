@@ -1,0 +1,13 @@
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+
+const  Contact = (props) => (
+    <div>
+        <h1>Contact!
+        </h1>
+    </div>
+)
+
+
+
+
+export default Contact;

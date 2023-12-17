@@ -15,19 +15,20 @@ class Lifecycle extends Component {
     }
 
 componentDidMount() {
-    console.log("ComponentDidMount")
-    this.title = "New title from did mount"
-    console.log(this.title)
-    setInterval( () => this.setState({cycle : this.state.cycle + 1}), 1000)
+    // console.log("ComponentDidMount")
+    // this.title = "New title from did mount"
+    // console.log(this.title)
+    console.log("Cycle: " + this.state.cycle)
+    setInterval( () => this.setState({cycle : this.state.cycle + 1}), 1)
 }
 
 componentDidUpdate(prevProps, prevState)
 {
-    console.log("ComponentDidUpdate")
-    console.log("Cycle:" + this.state.cycle)
+    // console.log("ComponentDidUpdate")
+    // console.log("Cycle:" + this.state.cycle)
 
-    console.log("prevProp: ", prevProps)
-    console.log("prevState: ", prevState)
+    // console.log("prevProp: ", prevProps)
+    // console.log("prevState: ", prevState)
 }
 
 componentWillUnmount()
@@ -35,11 +36,11 @@ componentWillUnmount()
     console.log("componentWillUnmount")
 }
 render() {
-    console.log("Render")
+    // console.log("Render")
     return (
         <div>
             <h1>{this.title}</h1>
-            Cycle: {this.state.cycle}
+            {/* Cycle: {this.state.cycle} */}
         </div>
     )
 }
